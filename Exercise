@@ -1,0 +1,20 @@
+//exercise 2.18
+#include<iostream>
+using namespace std;
+int main(){
+	int a,b,c;
+	cout<<"enter a number";
+	cin>>a;
+	cout<<"enter a number";
+	cin>>b;
+	if(a==b)
+	{
+		cout<<"Numbers are equal";	
+	}
+	else if(a>b) {
+		cout<<a<<" is larger";
+	}
+	else if(b>a){
+		cout<<b<<" is larger";
+	}
+}
